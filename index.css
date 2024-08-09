@@ -438,9 +438,7 @@ tbody, td, tfoot, th, thead, tr {
         min-height: 400px;
         object-fit: cover;
     }
-    .customer-items .customer-speak{
-        height: 300px;
-    }
+
     .customer-img img{
         height: 300px;
     }
@@ -478,7 +476,11 @@ tbody, td, tfoot, th, thead, tr {
 
 @media (max-width: 768px) {
     .carousel-header h1 {
-        font-size: 1.5em; /* Giảm kích thước chữ trên màn hình nhỏ hơn */
+        font-size: 1.2em; /* Giảm kích thước chữ trên màn hình nhỏ hơn */
+    }
+
+    .carousel-header button {
+        font-size: 13px; /* Giảm kích thước chữ trên màn hình nhỏ hơn */
     }
 
     .carousel-header h3 {
