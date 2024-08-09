@@ -327,6 +327,7 @@ tbody, td, tfoot, th, thead, tr {
 .main-social-footer-29 {
     flex: 1; /* Chiếm toàn bộ không gian có sẵn ở góc phải */
     text-align: right; /* Căn phải nội dung */
+    padding-bottom: 30px;
 }
 
 .footer-logo img {
@@ -461,6 +462,13 @@ tbody, td, tfoot, th, thead, tr {
         flex-direction: column;
         padding: 0;
     }
+    .carousel-header h1 {
+        font-size: 1.2em; /* Giảm kích thước chữ trên màn hình nhỏ hơn */
+    }
+
+    .carousel-header h3 {
+        font-size: 1em;
+    }
 }
 
 .footer-list-29 ul li{
@@ -476,20 +484,41 @@ tbody, td, tfoot, th, thead, tr {
 
 @media (max-width: 768px) {
     .carousel-header h1 {
-        font-size: 1.2em; /* Giảm kích thước chữ trên màn hình nhỏ hơn */
+        font-size: 1em; /* Giảm kích thước chữ trên màn hình nhỏ hơn */
+    }
+
+    .carousel-header h3 {
+        font-size: 0.9em;
     }
 
     .carousel-header button {
         font-size: 13px; /* Giảm kích thước chữ trên màn hình nhỏ hơn */
-    }
-
-    .carousel-header h3 {
-        font-size: 1em;
+        padding: 12px;
     }
 
     .btn-carousel {
         padding: 8px 16px;
         font-size: 0.9em;
+    }
+
+    .customer-speak .customer-content p{
+        font-size: 14px;
+    }
+
+    .customer-speak .customer-name p{
+        font-size: 14px;
+    }
+    .customer-items .customer-speak{
+        height: 300px;
+    }
+    .head-table h3{
+        font-size: 18px;
+    }
+    .detail-table ul li{
+        font-size: 16px
+    }
+    .main-social-footer-29 h5 {
+        font-size: 18px;
     }
 }
 
