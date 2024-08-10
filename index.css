@@ -421,6 +421,21 @@ tbody, td, tfoot, th, thead, tr {
     opacity: 1;
 }
 
+@media screen and (max-width: 1200px) {
+    .customer-items {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .customer-content p {
+        font-size: 15px;
+    }
+
+    .customer-name p {
+        font-size: 13px;
+    }
+}
+
 @media only screen and (max-width: 1024px){
     .stat__item{
       padding: 10px 15px;
@@ -548,3 +563,8 @@ tbody, td, tfoot, th, thead, tr {
     margin: 10px 0;
 }
 
+@media only screen and (min-width:1200px) {
+    .customer-speak{
+        height: 350px;
+    }
+}
