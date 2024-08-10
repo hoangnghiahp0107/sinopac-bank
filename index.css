@@ -568,3 +568,44 @@ tbody, td, tfoot, th, thead, tr {
         height: 350px;
     }
 }
+
+.swiper-button-prev, .swiper-button-next{
+    background: hsla(0, 0%, 77%, .54);
+    border: none;
+    border-radius: 50%;
+    width: 3pc;
+    height: 3pc;
+    top: var(--swiper-navigation-top-offset, 55%);
+    transition: all .2s ease-in-out;
+    color: white;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 1.25rem;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    background-color: #0d05ff;
+    color: white;
+}
+
+.direction-title{
+    background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+}
+
+.direction-content p{
+    margin: 0;
+}
+
+.swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 40px);
+}
