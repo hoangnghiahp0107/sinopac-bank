@@ -11,7 +11,13 @@
     font-size: 24px;
     transition: 0.3s color;
 }
-
+.banner-img{
+    width: 100%;
+    height: 600px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
 #carousel{
     background: url(img/4.png);
     background-position: center center;
@@ -604,6 +610,20 @@ tbody, td, tfoot, th, thead, tr {
     }
     .main-social-footer-29 h5 {
         font-size: 18px;
+    }
+    .video__item .video__list{
+        height: 250px;
+    }
+    #carousel{
+        min-height: 400px;
+        background-position: center;
+    }
+
+    .banner-img{
+        height: 400px;
+    }
+    .customer-p{
+        justify-content: center;
     }
 }
 
