@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <header>
-        <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <header class="sticky-top">
+        <nav id="navbar" class="navbar navbar-expand-lg">
             <div class="container">
               <a class="navbar-brand me-auto" href="#"><img src="img/logo_bk.png" alt=""></a>         
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -36,11 +36,11 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link mx-lg-2" href="index.html">Micro Loans</a>
+                        <a class="nav-link mx-lg-2 active" aria-current="page" href="openAccount.html">Mở tài khoản Online</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-lg-2 active" aria-current="page" href="openAccount.html">Mở tài khoản Online</a>
-                      </li>
+                      <a class="nav-link mx-lg-2" href="index.html">Micro Loans</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -53,8 +53,8 @@
     </header>
     <main>
         <section id="carousel">
-            <div class="carousel-img">
-                <img src="img/banner.jpg" alt="">
+            <!-- <div class="carousel-img">
+                <img src="img/3.png" alt="">
                 <div class="carousel-content">
                     <div class="container">
                         <div class="carousel-header text-white">
@@ -68,17 +68,149 @@
                         </div>
                     </div>
                 </div>
+            </div> -->
+            <div class="container">
+                <div class="carousel-header text-white">
+                    <h1>Mở tài khoản, vay siêu hời</h1>
+                    <h3 class="mt-4">
+                        <span>Lãi suất hấp dẫn, vô vàng lợi ích</span>
+                    </h3>
+                   <a href="#contact">
+                        <button class="btn btn-carousel mt-3">Mở tài khoản ngay<span><i class="fa-solid fa-arrow-right ms-3"></i></span></button>
+                   </a>
+                </div>
             </div>
         </section>
         <section>
             <div class="container">
                 <h2 class="mt-3">Đặc quyền vượt trội từ tài khoản thanh toán tiêu chuẩn
                 </h2>
+                <div class="accordion-group mt-5">
+                    <div class="accordion">
+                        <div class="discount-title">
+                            <i class="fa-solid fa-hand-holding-dollar mx-2"></i>
+                            Tiết kiệm siêu hời
+                        </div>
+                        <div class="discount-content" style="display: none;">
+                            <div class="wrap">
+                                <ul>
+                                    <li>Lãi suất vãng lai 0.1000
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="discount-title">
+                            <i class="fa-solid fa-basket-shopping mx-2"></i>
+                            Mua sắm xuyên quốc gia, chỉ tốn 0.1% phí charge
+                        </div>
+                        <div class="discount-content" style="display: none;">
+                            <div class="wrap">
+                                <ul>
+                                    <li>Mua sắm hả hê
+                                    </li>
+                                    <li>Không bị cản trở bởi sự khác biệt đồng tiền, khoảng cách địa lý
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="discount-title">
+                            <i class="fa-solid fa-truck-fast mx-2"></i>
+                            Giao dịch thần tốc
+                        </div>
+                        <div class="discount-content" style="display: none;">
+                            <div class="wrap">
+                                <ul>
+                                    <li>Nhanh chóng chỉ với 1 chạm
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="discount-title">
+                            <i class="fa-solid fa-wallet mx-2"></i>
+                            Miễn phí muôn vàn
+                        </div>
+                        <div class="discount-content" style="display: none;">
+                            <div class="wrap">
+                                <ul>
+                                    <li>Miễn phí giao dịch chuyển khoản, rút tiền mặt
+                                    </li>
+                                    <li>Nói không với phí duy trì tài khoản
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="discount-title">
+                            <i class="fa-solid fa-building-columns mx-2"></i>
+                            Ngân hàng số tuyệt vời
+                        </div>
+                        <div class="discount-content" style="display: none;">
+                            <div class="wrap">
+                                <ul>
+                                    <li>Thân thiện với người dùng
+                                    </li>
+                                    <li>Bảo mật cao
+                                    </li>
+                                    <li>Hiện đại</li>
+                                    <li>Trợ lý thông minh
+                                    </li>
+                                    <li>Đa dạng tiện ích</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="discount-title">
+                            <i class="fa-solid fa-handshake mx-2"></i>
+                            Vay siêu ưu đãi
+                        </div>
+                        <div class="discount-content" style="display: none;">
+                            <div class="wrap">
+                                <ul>
+                                    <li>Được vay siêu hời khi sử dụng tài khoản easy để vay Microloans từ Bank SinoPac
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="direction mt-3">
+        <section class="video">
             <div class="container">
                 <h2 class="mt-3">Hướng dẫn mở mới tài khoản thanh toán</h2>
+            </div>
+            <div class="video__container my-5">
+                <div class="video__item">
+                    <div class="video__list">
+                        <a href="https://www.youtube.com/watch?v=KUw4WEWE-tM">
+                            <span class="video_play_icon">
+                                <span>
+                                    <i class="fa fa-play"></i>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- dialog -->
+            <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                <iframe src="https://www.youtube.com/watch?v=KUw4WEWE-tM" frameborder="0" allow="autoplay; fullscreen"
+                    allowfullscreen></iframe>
+            </div>
+    
+        </section>
+        <!-- <section class="direction mt-3">
+            <div class="container">
+                <h2 class="mt-3">Hướng dẫn mở mới tài khoản thanh toán</h2>
+                
                 <div class="swiper card_slider">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
@@ -138,12 +270,11 @@
                         </div>
                       </div>
                     </div>
-                    <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
-                  </div>
+                </div>
             </div>
-        </section>
+        </section> -->
         <section id="question">
             <div class="container">
                 <div class="faq-wrap">
@@ -251,13 +382,104 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="mt-3 mb-5">
             <div class="container">
                 <h2>Danh sách thẻ</h2>
-                <div class="d-flex">
-                    <h5 class="mx-2">THẺ TÍN DỤNG</h5>
-                    <h5 class="mx-2">THẺ GHI NỢ</h5>
-                    <h5 class="mx-2">THẺ KHÁC</h5>
+                
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="card">
+                            <img src="img/card1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">THẺ THẾ GIỚI WING FU</h5>
+                              <p class="card-text">
+                                <b>Hoàn tiền lên tới 10%:</b> Khi thành viên Premier Financial Management đăng ký thẻ mới
+                              </p>
+                              <p class="card-text">
+                                Ngoài ra, các thành viên còn được tận hưởng rất nhiều ưu đãi khi du lịch, ăn uống
+                              </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pb-3">
+                                <button class="btn btn-outline-dark ms-3">So sánh</button>
+                                <button class="btn btn-outline-primary me-4">Mở thẻ</button>
+                            </div> 
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                            <img src="img/card3s.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">THẺ JCB WING FUNG</h5>
+                              <p class="card-text">
+                                <b>Quà tặng cho thành viên mới:</b> Người dùng mới có thể nhận được vali ABS 20 inch
+                              </p>
+                              <p class="card-text">
+                                <b>Liên kết với icash Pay:</b> Nhận điểm OPENPOINT khi chi tiêu tại 7-ELEVEN.
+                              </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pb-3">
+                                <button class="btn btn-outline-dark ms-3">So sánh</button>
+                                <button class="btn btn-outline-primary me-3">Mở thẻ</button>
+                            </div> 
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                            <img src="img/card2s.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">THẺ DAWHO</h5>
+                              <p class="card-text">
+                                <b> Hoàn tiền không giới hạn:</b> Hoàn tiền 1% cho giao dịch trong nước và 2% cho giao dịch quốc tế.               
+                              </p>
+                              <p class="card-text">
+                                <b>Nhiệm vụ đặc biệt:</b> Hoàn thành các nhiệm vụ được chỉ định để nhận thưởng.                              </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pb-3">
+                                <button class="btn btn-outline-dark ms-3">So sánh</button>
+                                <button class="btn btn-outline-primary me-3">Mở thẻ</button>
+                            </div> 
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                            <img src="img/card4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">THẺ ĐI BỘ TRONG MƠ</h5>
+                              <p class="card-text">
+                                <b>Hoàn tiền cao: </b> Nhận hoàn tiền lên đến 6% khi tiêu dùng tại các cửa hàng, nhà hàng, rạp chiếu phim...
+                              </p>
+                              <p class="card-text">
+                                <b>Quà tặng khi đăng ký: </b>Nhận nhiều quà tặng hấp dẫn khi đăng ký thẻ mới.
+                              </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pb-3">
+                                <button class="btn btn-outline-dark ms-3">So sánh</button>
+                                <button class="btn btn-outline-primary me-3">Mở thẻ</button>
+                            </div> 
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                            <img src="img/card5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">THẺ THẾ GIỚI VĨNH CỬU</h5>
+                              <p class="card-text">
+                                <b>Ưu đãi mua sắm:</b> Giảm giá khi mua sắm tại các nhà hàng, cửa hàng...
+                              </p>
+                              <p class="card-text">
+                                <b>Đặc quyền du lịch:</b> Miễn phí phòng chờ sân bay, dịch vụ đón tiễn sân bay...
+                              </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center pb-3">
+                                <button class="btn btn-outline-dark ms-3">So sánh</button>
+                                <button class="btn btn-outline-primary me-3">Mở thẻ</button>
+                            </div> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </section>
@@ -365,8 +587,8 @@
          },
           breakpoints: {
            1200:{
-             slidesPerView:4,
-             spaceBetween:5,
+             slidesPerView:3,
+             spaceBetween: 40,
            },
            768: {
                slidesPerView: 3, 
@@ -402,6 +624,24 @@
                 });
             });
         });
+        document.addEventListener('DOMContentLoaded', function () {
+        var discountTitles = document.querySelectorAll('.discount-title');
+        
+        discountTitles.forEach(function (title) {
+            title.addEventListener('click', function () {
+                // Toggle active class on the clicked title
+                this.classList.toggle('active');
+
+                // Find the next sibling element (accordion-content) and toggle its display
+                var content = this.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        });
+    });
     </script>
     <script>
         document.addEventListener('scroll', function() {
