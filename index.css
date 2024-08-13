@@ -12,6 +12,17 @@
     transition: 0.3s color;
 }
 
+#carousel{
+    background: url(img/4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
 .login-button, .register-button{
     background-color: #0d07d2;
     color: #fff;
@@ -788,13 +799,3 @@ tbody, td, tfoot, th, thead, tr {
     }
   }
 
-  #carousel{
-    background: url(img/4.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
